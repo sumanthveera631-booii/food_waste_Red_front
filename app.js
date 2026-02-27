@@ -1,4 +1,5 @@
 "use strict";
+const API_BASE_URL = "https://food-waste-red-back1.onrender.com/";
 function showToast(msg, type = 'success') {
     const t = document.getElementById('toast');
     const ico = document.getElementById('toastIcon');
