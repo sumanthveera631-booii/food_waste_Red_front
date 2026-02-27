@@ -1,4 +1,5 @@
 // Type definitions for API responses
+const API_BASE_URL = "https://food-waste-red-back1.onrender.com/";
 interface EstimateResponse {
   food: string;
   people_count: number;
